@@ -50,10 +50,29 @@ const About = () => {
        As a ReactJS developer, I have a strong foundation in HTML, CSS, and JavaScript, which allows me to create beautiful and responsive user interfaces. I am also proficient in Redux, which enables me to manage the state of complex applications with ease. In addition to ReactJS, I have experience with NodeJS, Firebase, and ExpressJS, which allows me to create robust server-side applications and APIs. I am also familiar with NextJS, which enables me to create server-rendered React applications that are optimized for SEO and performance.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='my-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
+        <a href='#about'>
+          <div className='w-64 h-5 rounded-3xl border-4 border-secondary flex justify-center items-center p-2'>
+            <motion.div
+              animate={{
+                x: [0, 100, -100, 0],
+                y: [0, 0, 0, 0],
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "linear",
+              }}
+              className='w-4 h-4 rounded-full bg-indigo-400'
+            />
+          </div>
+        </a>
       </div>
     </>
   );
