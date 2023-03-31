@@ -198,12 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ema-John",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-redux",
         color: "blue-text-gradient",
       },
       {
@@ -216,49 +220,56 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/rifatahmed787/redux-toolkit-ema-john-client",
+    live_link: "https://ema-john-79c53.web.app/",
   },
   {
-    name: "Job IT",
+    name: "Laptop Resale",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for reuseable laptop. User can buy reuseable laptop and they can see their order in the user dashboard.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
+      { name: "taiwindcss", color: "green-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/rifatahmed787/react-resale-products-client",
+    live_link: "https://resale-products-fa629.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Sports Photography",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A photography web site. User can added their best photography here. User can review other's photography and they can see their review in my review route.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/rifatahmed787/sports-photography-client",
+    live_link: "https://sports-photography-f3a1f.web.app/",
   },
 ];
 

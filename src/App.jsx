@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Tech from "./components/Tech";
+import Contact from "./components/Contact";
+import Works from "./components/Works";
 
 // import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
@@ -18,12 +20,12 @@ const App = () => {
         <About/>
         {/* <Experience /> */}
         <Tech/>
-        {/* <Works />
-        <Feedbacks /> */}
-        {/* <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>  */}
+        <Works/>
+        {/* <Feedbacks /> */}
+        <div className='relative z-0'>
+          <Contact/>
+          {/* <StarsCanvas /> */}
+        </div> 
       </div>
     </BrowserRouter>
   );
