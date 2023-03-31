@@ -6,11 +6,13 @@ import Tech from "./components/Tech";
 import Contact from "./components/Contact";
 import Works from "./components/Works";
 
-// import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+
+
 
 
 const App = () => {
   return (
+   <>
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
@@ -27,7 +29,10 @@ const App = () => {
           {/* <StarsCanvas /> */}
         </div> 
       </div>
+      
     </BrowserRouter>
+    
+   </>
   );
 }
 

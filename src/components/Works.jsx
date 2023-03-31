@@ -103,10 +103,30 @@ const Works = () => {
       </div>
       
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='my-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
+        <a href='#work'>
+          <div className='w-64 h-5 rounded-3xl border-4 border-green-400 flex justify-center items-center p-2'>
+            <motion.div
+              animate={{
+                x: [0, 100, -100, 0],
+                y: [0, 0, 0, 0],
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "linear",
+              }}
+              className='w-4 h-4 rounded-full bg-red-500'
+            />
+          </div>
+        </a>
       </div>
     </>
   );

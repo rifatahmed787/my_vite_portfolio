@@ -27,22 +27,30 @@ const Contact = () => {
     });
   };
 
+
+  //template_rxcrjee
+  //service_wedakra
+  //4Y7bUHltaXsX-TPGq ,public key
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_wedakra",
+        "template_rxcrjee",
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Web Developer",
+          to_name: "Md Rifat",
           from_email: form.email,
           to_email: "mdrifatahmed787@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "4Y7bUHltaXsX-TPGq"
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {

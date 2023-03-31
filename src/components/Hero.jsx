@@ -52,9 +52,11 @@ const Hero = () => {
             />
           </p>
          <div className="lg:flex py-10">
-            <button className="flex items-center border-2 border-indigo-500 px-4 py-2 mr-7"> 
+            <button className=" border-2 border-indigo-500 px-4 py-2 mr-7"> 
+            <a href="#contact" className="flex items-center">
             <Icon icon="la:hire-a-helper" width="25" className="mr-2"/>
               Hire Me
+            </a>
             </button>
             <button className=" border-2 hover:bg-indigo-500 hover:text-white border-indigo-500 px-4 py-2">
             <a href={resume} download target="_blank" className="flex items-center">
