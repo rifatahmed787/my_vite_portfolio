@@ -55,9 +55,9 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
+      <div className='xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
         <a href='#about'>
-          <div className='w-64 h-5 rounded-3xl border-4 border-secondary flex justify-center items-center p-2'>
+          <div className='w-64 h-5 rounded-3xl border-4 border-cyan-400 flex justify-center items-center p-2'>
             <motion.div
               animate={{
                 x: [0, 100, -100, 0],

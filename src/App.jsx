@@ -5,6 +5,7 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Contact from "./components/Contact";
 import Works from "./components/Works";
+import Thanks from "./components/Thanks";
 
 
 
@@ -24,7 +25,9 @@ const App = () => {
      <div className='relative z-0'>
        <Contact/>
        {/* <StarsCanvas /> */}
+      
      </div> 
+     <Thanks/>
      </div> 
     </BrowserRouter>
    </>
