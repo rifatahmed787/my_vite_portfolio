@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { image } from "../assets";
 import { styles } from "../styles";
 import ReactTypingEffect from "react-typing-effect";
-import resume from "../../public/pdf file/Rifat-resume.pdf"
+import resume from "../assets/Resume/Rifat-resume.pdf"
 import { Icon } from '@iconify/react';
 
 
@@ -53,13 +53,13 @@ const Hero = () => {
           </p>
          <div className="lg:flex py-10">
             <button className=" border-2 border-indigo-500 px-4 py-2 mr-7"> 
-            <a href="#contact" className="flex items-center">
+            <a href="#contact" className="flex items-center text-white">
             <Icon icon="la:hire-a-helper" width="25" className="mr-2"/>
               Hire Me
             </a>
             </button>
             <button className=" border-2 hover:bg-indigo-500 hover:text-white border-indigo-500 px-4 py-2">
-            <a href={resume} download target="_blank" className="flex items-center">
+            <a href={resume} download target="_blank" className="flex items-center text-white">
             <Icon icon="material-symbols:download-rounded" width="25" className="mr-2"/>
               Download Resume
             </a>  

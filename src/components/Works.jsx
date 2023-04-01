@@ -1,5 +1,5 @@
 import React from "react";
-import { Tilt } from '/node_modules/.vite/deps/react-tilt.js';
+import {Tilt} from 'react-tilt'
 import { motion } from "framer-motion";
 import {live} from "../assets"
 import { styles } from "../styles";
@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import "./Work.css"
 
 const ProjectCard = ({
   index,
@@ -108,6 +109,33 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      {/* see all button */}
+      <section>
+    <div className="flex flex-wrap justify-center pb-12 my-5">
+      <a
+        href="https://portfolio-cae4c.web.app/" target="_blank"
+        className="button button--nina px-5 py-0 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white relative block focus:outline-none border-2 border-solid rounded-lg text-sm text-center font-semibold uppercase tracking-widest overflow-hidden" 
+        data-text="See all projects"
+      >
+        <span className="align-middle">S</span>
+        <span className="align-middle">e</span>
+        <span className="align-middle">e</span>
+        <span className="align-middle">a</span>
+        <span className="align-middle">l</span>
+        <span className="align-middle">l</span>
+        <span className="align-middle">p</span>
+        <span className="align-middle">r</span>
+        <span className="align-middle">o</span>
+        <span className="align-middle">j</span>
+        <span className="align-middle">e</span>
+        <span className="align-middle">c</span>
+        <span className="align-middle">t</span>
+        <span className="align-middle">s</span>
+      </a>
+    </div>
+  </section>
+  {/* see all project button */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
         <a href='#work'>
