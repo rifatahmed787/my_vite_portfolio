@@ -68,7 +68,7 @@ const Hero = () => {
         </div>
         <div className="mx-auto">
         <img src={image} alt='image' className='w-80 object-contain border rounded-full hidden lg:block' />
-          </div>
+        </div>
       </div>
 
 

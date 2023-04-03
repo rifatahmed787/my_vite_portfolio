@@ -41,6 +41,7 @@ const ProjectCard = ({
             <div
               onClick={() => window.open(live_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              title="Live site"
             >
               <img
                 src={live}
@@ -51,6 +52,7 @@ const ProjectCard = ({
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              title="Github link"
             >
               <img
                 src={github}
