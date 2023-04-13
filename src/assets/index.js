@@ -26,10 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import docker1 from "./tech/docker1.png";
+import resale from "./project img/resale.png";
+import gift from "./project img/gift1.png";
+import shopzon from "./project img/shopzon.png";
 
 export {
   logo,
@@ -45,6 +45,7 @@ export {
   close,
   css,
   docker,
+  docker1,
   figma,
   git,
   html,
@@ -60,7 +61,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  resale,
+  gift,
+  shopzon,
 };

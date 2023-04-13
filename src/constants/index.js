@@ -19,10 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  resale,
+  gift,
+  shopzon,
   firebase,
+  docker1,
 } from "../assets";
 
 export const navLinks = [
@@ -35,12 +36,12 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
-  {
     id: "skill",
     title: "Skill",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -115,6 +116,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "docker1",
+    icon: docker1,
   },
 ];
 
@@ -202,7 +207,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ema-John",
+    name: "ShopZon",
     description:
       "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
     tags: [
@@ -223,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: shopzon,
     source_code_link:
       "https://github.com/rifatahmed787/redux-toolkit-ema-john-client",
     live_link: "https://ema-john-79c53.web.app/",
@@ -247,15 +252,15 @@ const projects = [
       },
       { name: "taiwindcss", color: "green-text-gradient" },
     ],
-    image: jobit,
+    image: resale,
     source_code_link:
       "https://github.com/rifatahmed787/react-resale-products-client",
     live_link: "https://resale-products-fa629.web.app/",
   },
   {
-    name: "Sports Photography",
+    name: "Gift Gallery",
     description:
-      "A photography web site. User can added their best photography here. User can review other's photography and they can see their review in my review route.",
+      "A gift items website. User can buy gift items from here. User can browse gift items by category from home route.",
     tags: [
       {
         name: "reactjs",
@@ -270,10 +275,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: gift,
     source_code_link:
-      "https://github.com/rifatahmed787/sports-photography-client",
-    live_link: "https://sports-photography-f3a1f.web.app/",
+      "https://github.com/rifatahmed787/gift-gallery-assignment",
+    live_link: "https://mdrifat-weero-digital.netlify.app/",
   },
 ];
 
