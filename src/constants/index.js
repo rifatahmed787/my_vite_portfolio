@@ -15,15 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  resale,
-  gift,
+  hungry,
+  dental,
   shopzon,
   firebase,
   docker1,
+  weero,
 } from "../assets";
 
 export const navLinks = [
@@ -47,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React JS Developer",
     icon: web,
   },
   {
-    title: "React JS Developer",
+    title: "Front-End Developer",
     icon: mobile,
   },
   {
-    title: "Front-End Developer",
+    title: "MERN stack Developer",
     icon: backend,
   },
   {
-    title: "MERN stack Developer",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -126,10 +123,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Weero Digital",
+    icon: weero,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - August 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,11 +135,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front-End Developer",
+    company_name: "Weero Digital",
+    icon: weero,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - August 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,13 +148,13 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "MERN Stack Developer",
+    company_name: "Weero Digital",
+    icon: weero,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed and maintained web applications using the MERN (MongoDB, Express, React,Node.js) stack.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -165,10 +162,10 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Weero Digital",
+    icon: weero,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2023 - August 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -207,6 +204,72 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Hungry-Guest",
+    description:
+      "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hungry,
+    source_code_link:
+      "https://github.com/rifatahmed787/hungry-guest-typescript-client",
+    live_link: "https://hungry-guest.netlify.app/",
+  },
+  {
+    name: "Weero-Dental",
+    description:
+      "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dental,
+    source_code_link:
+      "https://github.com/rifatahmed787/fresh-breath-dental-client",
+    live_link: "https://weero-dental.netlify.app/",
+  },
+  {
     name: "ShopZon",
     description:
       "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
@@ -232,53 +295,6 @@ const projects = [
     source_code_link:
       "https://github.com/rifatahmed787/redux-toolkit-ema-john-client",
     live_link: "https://ema-john-79c53.web.app/",
-  },
-  {
-    name: "Laptop Resale",
-    description:
-      "Web application that enables users to search for reuseable laptop. User can buy reuseable laptop and they can see their order in the user dashboard.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      { name: "taiwindcss", color: "green-text-gradient" },
-    ],
-    image: resale,
-    source_code_link:
-      "https://github.com/rifatahmed787/react-resale-products-client",
-    live_link: "https://resale-products-fa629.web.app/",
-  },
-  {
-    name: "Gift Gallery",
-    description:
-      "A gift items website. User can buy gift items from here. User can browse gift items by category from home route.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gift,
-    source_code_link:
-      "https://github.com/rifatahmed787/gift-gallery-assignment",
-    live_link: "https://mdrifat-weero-digital.netlify.app/",
   },
 ];
 

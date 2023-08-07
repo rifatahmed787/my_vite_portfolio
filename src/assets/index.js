@@ -22,13 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import firebase from "./tech/firebase.png";
 import live from "./live.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import weero from "./weero.png";
 import docker1 from "./tech/docker1.png";
-import resale from "./project img/resale.png";
-import gift from "./project img/gift1.png";
+import hungry from "./project img/hungry.png";
+import dental from "./project img/dental.png";
 import shopzon from "./project img/shopzon.png";
 
 export {
@@ -57,11 +54,8 @@ export {
   tailwind,
   typescript,
   firebase,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  resale,
-  gift,
+  weero,
+  hungry,
+  dental,
   shopzon,
 };
