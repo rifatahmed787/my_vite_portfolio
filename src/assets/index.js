@@ -27,6 +27,7 @@ import docker1 from "./tech/docker1.png";
 import hungry from "./project img/hungry.png";
 import dental from "./project img/dental.png";
 import shopzon from "./project img/shopzon.png";
+import book from "./project img/book.png"
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   hungry,
   dental,
   shopzon,
+  book
 };

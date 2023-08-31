@@ -18,6 +18,7 @@ import {
   hungry,
   dental,
   shopzon,
+  book,
   firebase,
   docker1,
   weero,
@@ -204,6 +205,43 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Book-Catalog",
+    description:
+      "Web-based platform that allows users to buy, and manage book. Users can buy their preferable book and and also can add book. To buy and add book user have to log in first.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RTK Query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: book,
+    source_code_link:
+      "https://github.com/rifatahmed787/book-catalog-client",
+    live_link: "https://book-catalog-client-alpha.vercel.app/",
+  },
+  {
     name: "Hungry-Guest",
     description:
       "Web-based platform that allows users to buy, and manage products. Users can buy their daily basis products. To buy products user have to log in first.",
@@ -280,6 +318,10 @@ const projects = [
       },
       {
         name: "react-redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RTK Query",
         color: "blue-text-gradient",
       },
       {
